@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__brand-title {
+    display: flex;
+    align-items: center;
+    padding: 12rem;
+  }
+
+  .nav__hamburger {
+    background-color: grey;
+    margin-left: auto;
+  }
+
+  &__navbar-links {
+    text-decoration: none;
+  }
+
+  .navbar-links ul {
+    //display: flex;
+    //align-items: center;
+    display: none;
+  }
+
+  /*START BIG SCREEN HERE
+
+  //display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //border: 1px red dotted;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .navbar-links {
+    color: #161616;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 1rem;letter-spacing: 1px;
+    
+    font-weight: 600;
+    //line-height: 20px;
+  }
+
+  .brand-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navbar-links li {
+    list-style: none;
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+  }*/
+}

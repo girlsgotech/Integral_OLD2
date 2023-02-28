@@ -1,0 +1,248 @@
+/*@import "components/nav.scss";*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*START BIG SCREEN HERE
+
+  //display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //border: 1px red dotted;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .navbar-links {
+    color: #161616;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 1rem;letter-spacing: 1px;
+
+    font-weight: 600;
+    //line-height: 20px;
+  }
+
+  .brand-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navbar-links li {
+    list-style: none;
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+  }*/
+}
+.navbar__brand-title {
+  display: flex;
+  align-items: center;
+  padding: 12rem;
+}
+.navbar .nav__hamburger {
+  background-color: grey;
+  margin-left: auto;
+}
+.navbar__navbar-links {
+  text-decoration: none;
+}
+.navbar .navbar-links ul {
+  display: none;
+}
+
+.picture {
+  padding: 10rem;
+  background-color: white;
+  background-image: url(../../images/pier.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.3) inset;
+  /*BIG SIZE BEGINS HERE ********
+  padding: 10rem;
+  background-color: white;
+  background-image: url(../../images/pier.jpg);
+  //background-repeat: no-repeat;
+  background-size: cover;
+  //width: 100px;
+  //width: 100%;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.3) inset;
+  h1 {
+    color: white;
+    font-size: 6.429rem;
+    font-family: Montserrat;
+    letter-spacing: 1.25px;
+    font-weight: 500;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    //margin: 0 0 20px;
+    //padding: 0;
+  }
+
+  h2 {
+    color: white;
+    //font-size: 5rem;
+    font-family: Montserrat;
+    letter-spacing: 1.25px;
+    font-weight: 400;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    //margin: 0 0 50px;
+    //padding: 0;
+  }
+
+  p {
+    color: white;
+    font-weight: 400;
+    font-family: Montserrat;
+    //letter-spacing: 1.25px;
+    // font-weight: 400;
+    // text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .view_btn {
+    color: white;
+    background-color: transparent;
+    letter-spacing: 2px;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 2.5;
+    border-radius: 8px;
+  }
+
+  .download_btn {
+    color: white;
+    border-color: #00aded;
+    background-color: #00aded;
+    letter-spacing: 2px;
+    //border-width: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    //line-height: 1.3333333;
+    line-height: 2.5;
+    border-radius: 8px;
+  }*/
+}
+
+.picture {
+  padding: 10rem;
+  background-color: white;
+  background-image: url(../../images/pier.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.3) inset;
+  /*BIG SIZE BEGINS HERE ********
+  padding: 10rem;
+  background-color: white;
+  background-image: url(../../images/pier.jpg);
+  //background-repeat: no-repeat;
+  background-size: cover;
+  //width: 100px;
+  //width: 100%;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.3) inset;
+  h1 {
+    color: white;
+    font-size: 6.429rem;
+    font-family: Montserrat;
+    letter-spacing: 1.25px;
+    font-weight: 500;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    //margin: 0 0 20px;
+    //padding: 0;
+  }
+
+  h2 {
+    color: white;
+    //font-size: 5rem;
+    font-family: Montserrat;
+    letter-spacing: 1.25px;
+    font-weight: 400;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    //margin: 0 0 50px;
+    //padding: 0;
+  }
+
+  p {
+    color: white;
+    font-weight: 400;
+    font-family: Montserrat;
+    //letter-spacing: 1.25px;
+    // font-weight: 400;
+    // text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .view_btn {
+    color: white;
+    background-color: transparent;
+    letter-spacing: 2px;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 2.5;
+    border-radius: 8px;
+  }
+
+  .download_btn {
+    color: white;
+    border-color: #00aded;
+    background-color: #00aded;
+    letter-spacing: 2px;
+    //border-width: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    //line-height: 1.3333333;
+    line-height: 2.5;
+    border-radius: 8px;
+  }*/
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid: gap 20px;
+  height: 300px;
+  padding: 15px 15px 15px 16px;
+}
+.services h4 {
+  font-size: 1.286rem;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+  font-style: Font Awesome 5 Free;
+}
+.services .info {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  letter-spacing: 1px;
+}
+.services p {
+  grid-column: 2/2;
+  grid-row: 2/2;
+  margin: 0 20px 30px 0;
+}/*# sourceMappingURL=main.css.map */
